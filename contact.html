@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,12 @@
     <link rel="stylesheet" href="./css/styleContact.css">
     <title>Contato</title>
 </head>
+
 <body>
     <header>
         <div class="divLogo">
-            <a href="index.html"><img src="./images/Logo-Fotografo-512.png" alt="Logo casa do Fotógrafo" class="logo"></a>
-            <!-- <div class="Tel">(91) 3241-1827 <br> (91) 3222-0566</div> -->
+            <a href="index.html"><img src="./images/Logo-Fotografo-512.png" alt="Logo casa do Fotógrafo"
+                    class="logo"></a>
         </div>
 
         <nav id="nav">
@@ -34,11 +36,37 @@
         </nav>
     </header>
 
+    <main>
+        <section id="bdContact">
+            <div>
+                <h1>Contato</h1>
+            </div>
+            <div>
+                <form action="GET">
+                    <ul>
+                        <li class="icon1 mb">(91) 3241-1827 | (91) 3222-0566</li>
+                        <a href="mailto:album@casadofotografopa.com.br">
+                            <li class="icon2 mb">album@casadofotografopa.com.br</li>
+                        </a>
+                        <li class="icon3 mb">Senador Manoel Barata, 925 - Campina, Belém - PA</li>
+                    </ul>
+                </form>
+            </div>
+            <h2>Ou deixe a sua mensagem:</h2>
+            <input type="text" name="NAME" id="NAME" placeholder="SEU NOME">
+            <input type="email" name="EMAIL" id="EMAIL" placeholder="SEU MELHOR EMAIL">
+            <textarea name="MSG" id="MSG" cols="30" rows="10" placeholder="SUA MENSAGEM"></textarea>
+            <input type="reset" value="LIMPAR" class="BUTTON">
+            <input type="submit" value="ENVIAR" class="BUTTON">
+        </section>
+    </main>
+
     <footer>
         Subaru Tech &copy; <a href="https://www.linkedin.com/in/subarusakaguchi/" target="_blank">Subaru Sakaguchi</a>
     </footer>
 
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>

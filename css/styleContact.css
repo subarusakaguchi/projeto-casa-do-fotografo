@@ -1,0 +1,66 @@
+#bdContact {
+    width: 100%;
+    height: 800px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-image: url(../images/contato-original-1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.808);
+    color: #BD2A14;
+    text-align: center;
+}
+
+#bdContact li {
+    text-align: left;
+}
+
+#bdContact div {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+input, textarea {
+    padding: 10px;
+    width: 90%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font: bold 15px arial;
+}
+
+.BUTTON {
+    width: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #BD2A14;
+    color: white;
+    border: 3px solid #8f1a08;
+}
+
+.BUTTON:hover {
+    color: #BD2A14;
+    background-color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    #bdContact {
+        padding: 10px;
+    }
+
+    #bdContact h1 {
+        margin-top: 20px;
+    }
+
+    input, textarea {
+        width: 90%
+    }
+
+    .BUTTON {
+        width: 40%;
+    }
+}
