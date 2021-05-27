@@ -1,0 +1,64 @@
+#gallery img {
+    size: 50%;
+    display: block;
+    margin-left: 40px;
+    display: flex;
+    border: 2px solid black;
+}
+
+p {
+    color: white;
+    font: normal 30px arial;
+    text-align: justify;
+    line-height: 45px;
+    word-spacing: 10px;
+}
+
+#bdGalleries {
+    width: 100%;
+    background-color: #6C8EAD;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#galleriesText {
+    width: 50%;
+    float: left;
+}
+
+#galleriesText, #gallery {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    p {
+        font: normal 20px arial;
+        margin-left: 40px;
+        line-height: 25px;
+        word-spacing: normal;
+    }
+    
+    #gallery img {
+        margin: 0;
+        width: 100%;
+    }
+
+    #bdGalleries {
+        padding: 0;
+    }
+
+    #galleriesText {
+        float: none;
+        width: 90%;
+    }
+
+    #galleriesText h1 {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
