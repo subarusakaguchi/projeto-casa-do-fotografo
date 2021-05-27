@@ -137,6 +137,7 @@ header {
 }
 
 footer {
+    display: block;
     color: #BD2A14;
     background-color: black;
     line-height: 50px;
